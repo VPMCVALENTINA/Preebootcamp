@@ -12,5 +12,6 @@ function add(num1, num2){
         console.log("num2 is: " + num2);
         var sum = num1 + num2;
         console.log(sum);
+    
     }
-    //el console.log imprime el valor de 30
+    //el console.log imprime sumando numeros, el valor de num1, el valor de num2,valor 30
