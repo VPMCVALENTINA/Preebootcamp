@@ -1,10 +1,11 @@
-var alturaNiño = 55;
-function muestraSiElNiñoPuedeSubirALaMontañaRusa(){
+var alturaNino = 55;
+function muestraSiElNinoPuedeSubirALaMontañaRusa(alturaNino){
 
-    if (alturaNiño > 52){
-            console.log = ("¡Súbete, chico!");
+    if (alturaNino > 52){
+            console.log("¡Súbete, chico!");
         }
         else {
-                console.log = ("Lo siento, chico. Tal vez el próximo año");
+                console.log("Lo siento, chico. Tal vez el próximo año");
             }
 }
+//console.log me va mostrar "¡Súbete, chico!"
