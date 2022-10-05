@@ -4,7 +4,6 @@
         <div id='character' style='position:absolute; top:100px; left:450px; background-image: url("img/down1.png"); width:59px; height:86px;'></div>
 		<div id='character2' style='position:absolute; top:100px; left:450px; background-image: url("img/down1.png"); width:59px; height:86px;'></div>
     </div>
-	<link rel="stylesheet" href="estilo.css">
     <script type="text/javascript">
 	    var leftValueP1 = 450, topValueP1 = 100;
 		var leftValueP2 = 450, topValueP2 = 100;
@@ -21,49 +20,49 @@
 					walkValue = 1;
 				} 
 				
-				if(e.keyCode == 37 && leftValueP1 > 0){
+				if(e.keyCode == 37){
 					// Left
 					leftValueP1 = leftValueP1 - 25;
 					document.getElementById("character").style.left = leftValueP1+"px";
 					document.getElementById("character").style.backgroundImage = "url('img/left"+walkValue+".png')";
 				}
-				else if (e.keyCode == 39 && leftValueP1 < 500){
+				else if (e.keyCode == 39){
 					// Right
 					leftValueP1 = leftValueP1 + 25;
 					document.getElementById("character").style.left = leftValueP1+"px";
 					document.getElementById("character").style.backgroundImage = "url('img/right"+walkValue+".png')";
 				}
-				else if (e.keyCode == 38 && topValueP1 > 0){
+				else if (e.keyCode == 38){
 					// Top
 					topValueP1 = topValueP1 - 25;
 					document.getElementById("character").style.top = topValueP1+"px";
 					document.getElementById("character").style.backgroundImage = "url('img/top"+walkValue+".png')";
 				}
-				else if (e.keyCode == 40 && topValueP1 < 500){
+				else if (e.keyCode == 40){
 					// Bottom
 					topValueP1 = topValueP1 + 25;
 					document.getElementById("character").style.top = topValueP1+"px";
 					document.getElementById("character").style.backgroundImage = "url('img/down"+walkValue+".png')";
 				}
-				if(e.keyCode == 65 && leftValueP2 > 0){
+				if(e.keyCode == 65){
 					// Left
 					leftValueP2 = leftValueP2 - 25;
 					document.getElementById("character2").style.left = leftValueP2+"px";
 					document.getElementById("character2").style.backgroundImage = "url('img/left"+walkValue+".png')";
 				}
-				else if (e.keyCode == 68 && leftValueP2 < 500){
+				else if (e.keyCode == 68){
 					// Right
 					leftValueP2 = leftValueP2 + 25;
 					document.getElementById("character2").style.left = leftValueP2+"px";
 					document.getElementById("character2").style.backgroundImage = "url('img/right"+walkValue+".png')";
 				}
-				else if (e.keyCode == 87 && topValueP2 > 0){
+				else if (e.keyCode == 87){
 					// Top
 					topValueP2 = topValueP2 - 25;
 					document.getElementById("character2").style.top = topValueP2+"px";
 					document.getElementById("character2").style.backgroundImage = "url('img/top"+walkValue+".png')";
 				}
-				else if (e.keyCode == 83 && topValueP2 < 500){
+				else if (e.keyCode == 83){
 					// Bottom
 					topValueP2 = topValueP2 + 25;
 					document.getElementById("character2").style.top = topValueP2+"px";
