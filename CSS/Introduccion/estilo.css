@@ -1,0 +1,16 @@
+h1 {
+    color: rgba(255, 0, 0, 0.644);
+    font-size: 40px;
+}
+body{
+    background-color: rgb(43, 143, 224);
+}
+p{
+    text-align: left;
+}
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+}
