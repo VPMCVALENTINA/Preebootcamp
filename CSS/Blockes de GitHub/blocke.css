@@ -1,0 +1,38 @@
+img.octocat {
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 20px;
+}
+
+.container1{
+    background-color: rgb(80, 10, 10);
+}
+.container2{
+    background-color: rgb(16, 126, 126);
+}
+.container3{
+
+    background-color: rgb(56, 126, 16);
+}
+    img{
+    max-height: 200px;
+    max-width: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.class1{
+    margin-left: 170px;
+}
+
+img.octocat {
+    height: 200px;
+}
