@@ -1,0 +1,29 @@
+.nav{
+    background-color: gray;
+    color: antiquewhite;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    color: aliceblue;
+}
+.nav-title{
+    margin:10px ;
+
+}
+.btn{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(49, 221, 221);
+    box-shadow: 3px 3px black;
+}
+.row{
+
+}
