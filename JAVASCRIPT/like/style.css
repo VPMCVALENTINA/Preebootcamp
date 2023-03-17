@@ -1,0 +1,71 @@
+*{
+    font-family: cursive;
+}
+.nav{
+    background-color:black;
+    color: antiquewhite;
+    display: flex;
+    height: 80px;
+    align-items: flex-start;
+}
+.nav-title{
+    margin: 10px;
+}
+.text{
+    text-align: center;
+}
+.container{
+    margin: 20px;
+    outline: solid 2px black;
+}
+.row{
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+.card{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.container2{
+    margin: 20px;
+    outline: solid 2px black;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
+.text1{
+    margin: 10px;
+}
+.text2{
+    margin: 20px;
+}
+.text3{
+    margin: 20px;
+}
+.text4{
+    margin: 20px;
+}
+#like-btn{
+    background-color: yellow;
+    margin: 10px 15px;
+    padding: 10px 30px;
+    box-shadow:  4px 4px black;
+}
+.card1{
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.fila{
+    display: flex;
+}
+
+.columnas1{
+    flex: 1;
+}
+.columna2{
+   flex: 3;
+}
