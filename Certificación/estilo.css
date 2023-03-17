@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+.logo{
+    padding: 20px;
+    display: flex;
+
+}
+.container{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 10px;
+    height: 80px;
+}
+.container1{
+    margin: -15px;
+}
+.columna1{
+    margin-left: 10px;
+    list-style-type: none;
+}
+.barra1{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.row1{
+    display: flex;
+}
+.col1{
+    flex:1;
+}
+.col2{
+    flex:3;
+}
