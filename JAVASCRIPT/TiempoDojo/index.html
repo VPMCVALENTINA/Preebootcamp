@@ -11,11 +11,52 @@
     <div class="row nav">
         <h1 class="row nav-title">DojoWeather</h1>
         <ul class="row nav-links">
-            <li><a href="#">Burbank</a></li>
-            <li><a href="#" class="active">Chicago</a></li>
-            <li><a href="#">Dallas</a></li>
+            <li><a href="#" onclick="reporte()">Burbank</a></li>
+            <li><a href="#" onclick="reporte()" class="active">Chicago</a></li>
+            <li><a href="#" onclick="reporte()">Dallas</a></li>
         </ul>
     </div>
-    
+    <div class="fila1">
+       <div class="c1">
+            <h2 class="derecha">San Jose</h2>
+            <h4 class="izquierda">temperature in <select name="Temperatura">
+                <option>T°</option>
+                <option>C°</option>
+              </select></h4>
+        </div>
+    </div>
+    <div class="fila2">
+        <div class="container1">
+            <h1>Today</h1>
+            <img class="lluvia" src="iconos/some_rain.png" alt="" width="100px">
+            <h4>some rain</h4>
+
+        </div>
+        <div class="container2">
+            <h1>Tomorrow</h1>
+            <img class="sol" src="iconos/some_sun.png" alt="" width="100">
+            <h4>some sun</h4>
+        </div>
+        <div class="container3">
+            <h1>Friday</h1>
+            <img class="nube" src="iconos/some_clouds.png" alt="" width="100px">
+            <h4>some cloud</h4>
+        </div>
+        <div class="container4">
+            <h1>Saturday</h1>
+            <img class="sol" src="iconos/some_sun.png" alt="" width="100">
+            <h4>some sun</h4>
+        </div>
+    </div>
+    <div class="fila3">
+        <div class="container5">
+            <img class="img2" src="iconos/cookie.png" alt="" width="100px" height="100px">
+            <h4 class="cokie">Stop! cookie time <br>
+            We use cookies (sadly not the edible ones) to personalize <br>
+            content and ads, to provide social media features and to <br>
+            analyse our traffic. <a href="Read more..."></a></h4>
+        </div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>

@@ -20,3 +20,62 @@
 .nav-title{
     margin:10px ;
 }
+.fila1{
+    margin: 20px 40px;
+    outline: solid 2px black;
+}
+.fila2{
+    margin: 20px 40px;
+    display: flex;
+    justify-content:space-between;
+    outline: solid 2px black;
+}
+.container1{
+    background-color: rgb(192, 180, 180);
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    outline: solid 2px black;
+}
+.container2{
+    background-color: rgb(192, 180, 180);
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    outline: solid 2px black;
+}
+.container3{
+    background-color: rgb(192, 180, 180);
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    outline: solid 2px black;
+}
+.container4{
+    background-color: rgb(192, 180, 180);
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    outline: solid 2px black;
+}
+.sol{
+    border-radius: 55%;
+}
+.lluvia{
+    border-radius: 55%;
+}
+.nube{
+    border-radius: 55%;
+}
+.izquierda{
+    text-align: end;   
+}
+.fila3{
+    display: flex;
+    margin: 20px 40px;
+    outline: solid 2px black;
+}
+.container5{
+    display: flex;
+    margin: 0px;
+}
