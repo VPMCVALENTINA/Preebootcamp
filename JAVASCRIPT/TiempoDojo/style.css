@@ -20,43 +20,49 @@
 .nav-title{
     margin:10px ;
 }
+.c1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
 .fila1{
     margin: 20px 40px;
-    outline: solid 2px black;
+}
+.line{
+    outline: solid 1px black;
+}
+.fila1{
+    margin: 20px 40px;
 }
 .fila2{
     margin: 20px 40px;
     display: flex;
     justify-content:space-between;
-    outline: solid 2px black;
 }
 .container1{
     background-color: rgb(192, 180, 180);
     width: 200px;
     height: 300px;
     text-align: center;
-    outline: solid 2px black;
 }
 .container2{
     background-color: rgb(192, 180, 180);
     width: 200px;
     height: 300px;
     text-align: center;
-    outline: solid 2px black;
 }
 .container3{
     background-color: rgb(192, 180, 180);
     width: 200px;
     height: 300px;
     text-align: center;
-    outline: solid 2px black;
 }
 .container4{
     background-color: rgb(192, 180, 180);
     width: 200px;
     height: 300px;
     text-align: center;
-    outline: solid 2px black;
 }
 .sol{
     border-radius: 55%;
@@ -70,10 +76,46 @@
 .izquierda{
     text-align: end;   
 }
+.temp{
+    display: flex;
+    justify-content: space-around;
+
+}
+.rojo{
+    color: red;
+}
+.azul{
+    color: blue;
+}
 .fila3{
     display: flex;
     margin: 20px 40px;
+    justify-content: space-around;
+}
+.img2{
+    margin: 40px 20px;
+}
+.container5{
+    display: flex;
+    justify-content: space-around;
     outline: solid 2px black;
+}
+.cokie{
+    justify-items: center;
+    margin: 40px 20px;
+}
+.boton{
+    width: 100px;
+    height: 35px;
+    background-color: aquamarine;
+    margin-top: 70px;
+    margin-right: 200px;
+    box-shadow: 3px 3px black;
+    font-size: 18px;
+}
+.fila3{
+    display: flex;
+    margin: 20px 40px;
 }
 .container5{
     display: flex;

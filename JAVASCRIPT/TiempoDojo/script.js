@@ -1,3 +1,7 @@
 function reporte() {
-    alert("Cargando reporte meteorológico")
+    alert("Cargandoinforme meteorológico")
+}
+var cokie = document.querySelector(".container5");
+function desaparecer() {
+    cokie.remove();
 }
